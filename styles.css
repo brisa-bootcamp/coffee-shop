@@ -1,0 +1,21 @@
+:root {
+  /* Colors */
+  --color-background-dark: #1F2937; /* Dark background for hero and footer */
+  --color-text-hero-main: #F9FAF8; /* Hero main text */
+  --color-text-secondary: #E5E7EB; /* Hero secondary text and header link text */
+  --color-header-logo: #F9FAF8; /* Header logo text */
+  --color-button: #3882F6; /* Button and call-to-action background color */
+  --color-quote-bg: #E5E7EB; /* Quote section background */
+  --color-quote-text: #1F2937; /* Quote text */
+
+  /* Font Sizes */
+  --font-size-hero-main: 48px; /* Extra-bold hero main text */
+  --font-size-secondary: 18px; /* Hero secondary text */
+  --font-size-header-logo: 24px; /* Header logo text */
+  --font-size-information-header: 36px; /* Extra-bold information header */
+  --font-size-quote-text: 36px; /* Light italic quote text */
+
+  /* Font Weights */
+  --font-weight-extra-bold: 800;
+  --font-weight-light-italic: 300; /* Use italic font style */
+}
