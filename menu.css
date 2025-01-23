@@ -101,10 +101,6 @@ h1.menu-title {
 }
 
 @media (max-width: 768px) {
-    .article-card-content_menu {
-        width: calc(50% - 15px); 
-    }
-
     .title_menu-card {
         font-size: 1rem;
     }
@@ -120,22 +116,32 @@ h1.menu-title {
 }
 
 @media (max-width: 480px) {
+    .header-menu-content_container {
+        flex-direction: column;
+        height: auto;
+        padding: 5px;
+    }
+    .header-menu_back-to-home {
+        font-size: 14px;
+    }
+    h1.menu-title {
+        font-size: var(--font-size-secondary);
+        padding-left: 90px;
+    }
     .section-card-container_menu {
         gap: 10px; 
+        width: 53%;
+        margin: 6% 23%;
     }
-
     .article-card-content_menu {
         width: 100%; 
     }
-
     .title_menu-card {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
-
     .paragraph_menu-card {
         font-size: 0.7rem; 
     }
-
     .button_menu-card {
         width: 90px;
         font-size: 0.7rem;
