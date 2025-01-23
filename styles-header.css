@@ -41,6 +41,10 @@ a.header-nav_about, .header-nav_menu, .header-nav_book__table {
     font-weight: 200;
 }
 
+.header-nav-links-container a:hover {
+    text-decoration: underline;
+}
+
 .hero-container {
     display: flex;
     align-items: flex-end;
@@ -90,3 +94,18 @@ p.hero-paragraph {
     /*width: 100%;*/
     object-fit: contain;
 }
+
+
+@media (max-width: 1024px) {
+    .header-container {
+        height: 29vh;
+    }
+
+}    
+
+@media (max-width: 892px) {
+    .header-container {
+        height: 59vh;
+    }
+
+}  
