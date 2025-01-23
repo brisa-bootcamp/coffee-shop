@@ -75,6 +75,7 @@ p.hero-paragraph {
  font-weight: 200;
  text-align: justify;
 }
+
 .hero-btn__events{
     height: 29px;
     width: 118px;
@@ -110,7 +111,6 @@ p.hero-paragraph {
     .header-nav_container {
         padding: 0;
     }
-   
 }
 
 @media (max-width: 768px) {
