@@ -17,17 +17,21 @@ body {
 
 .header-nav_container {
     display: flex;
-    align-items: center;
     justify-content: flex-end;
     padding-bottom: 20px;
     margin: 0 auto;
     max-width: 1200px;
 }
-
+.header-nav-logo_container {
+    display: flex;
+    margin-right: auto;
+    align-items: flex-end;
+}
 .header-nav_logo {
     font-size: 24px;
     color: var(--color-header-logo);
     margin-right: auto;
+    filter: brightness(0.5);
 }
 .header-nav-links-container {
     display: flex;
@@ -96,13 +100,6 @@ p.hero-paragraph {
 }
 
 
-@media (max-width: 1024px) {
-   
-}    
-
-@media (max-width: 892px) {
-   
-}  
 
 @media (max-width: 883px) {
     .header-container {
@@ -119,6 +116,7 @@ p.hero-paragraph {
     }
 
 }
+
 
 /* Media Query for mobile devices (480px and up) */ 
 @media (max-width: 480px) { 
