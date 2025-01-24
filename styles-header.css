@@ -135,7 +135,7 @@ p.hero-paragraph {
      .hero-container { 
         flex-wrap: wrap; 
         align-items: center; 
-        padding-top: 8%; 
+        padding-top: 2%; 
     }
      .hero-title { 
         font-size: var(--font-size-hero-tertiary); 
